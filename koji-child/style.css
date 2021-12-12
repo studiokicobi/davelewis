@@ -123,8 +123,7 @@ figcaption {
 }
 
 /* Social links */
-.widget-content > ul,
-.widget-content > ol {
+.widget-content > ul.wp-block-social-links {
   margin-left: -10px;
 }
 
