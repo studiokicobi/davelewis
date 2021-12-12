@@ -216,6 +216,10 @@ figcaption {
   }
 }
 
+.post-meta.stack-mobile {
+  flex-direction: column;
+}
+
 /* Footer   
    ----------------------------- */
 
