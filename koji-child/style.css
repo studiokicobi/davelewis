@@ -276,7 +276,7 @@ input[type="submit"] {
 /* Table   
    ----------------------------- */
 
-table {
+figure.wp-block-table table {
   font-size: 1em;
 }
 
@@ -285,7 +285,7 @@ table {
   background-color: #fff;
 }
 
-tbody > tr:nth-child(even) {
+figure.wp-block-table table tbody > tr:nth-child(even) {
   background-color: #fff;
 }
 
