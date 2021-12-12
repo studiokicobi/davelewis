@@ -12,3 +12,19 @@
 /* ----------------------------------------------------------------------------
  * Child Theme Style.css styles
  * ------------------------------------------------------------------------- */
+
+/* Sidebar cat list */
+.wp-block-categories-list {
+  margin-left: 0;
+}
+
+.widget-content .wp-block-categories-list a {
+  text-decoration: none;
+}
+
+@media (min-width: 1000px) {
+  .site-nav {
+    padding-bottom: 4.5rem;
+    border-bottom: 1px solid #ccc;
+  }
+}
