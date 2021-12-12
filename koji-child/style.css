@@ -272,3 +272,11 @@ input[type="submit"] {
   background: #f0efec;
   color: #5f6973;
 }
+
+/* Table   
+   ----------------------------- */
+
+.wp-block-table.is-style-stripes tbody tr:nth-child(even),
+.wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
