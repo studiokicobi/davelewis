@@ -292,3 +292,8 @@ figure.wp-block-table table tbody > tr:nth-child(even) {
 .wp-block-table.is-style-stripes {
   border-bottom: 0px;
 }
+
+figure.wp-block-table table td {
+  word-break: keep-all;
+  padding: 2.5% 5% 2.5% 0;
+}
