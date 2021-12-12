@@ -283,3 +283,10 @@ figure.wp-block-table table td {
   padding: 2.5% 1.5%;
   min-width: 6rem;
 }
+
+/* Archive   
+   ----------------------------- */
+
+body.category .subheading {
+  display: none;
+}
