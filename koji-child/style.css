@@ -13,13 +13,113 @@
  * Child Theme Style.css styles
  * ------------------------------------------------------------------------- */
 
-/* Sidebar cat list */
-.wp-block-categories-list {
-  margin-left: 0;
+/*
+FONTS
+
+# MINION 3
+
+Minion 3 Italic
+
+font-family: minion-3, serif;
+font-weight: 400;
+font-style: italic;
+
+Minion 3 Regular
+
+font-family: minion-3, serif;
+font-weight: 400;
+font-style: normal;
+
+Minion 3 Medium
+
+font-family: minion-3, serif;
+font-weight: 500;
+font-style: normal;
+
+Minion 3 Semibold
+
+font-family: minion-3, serif;
+font-weight: 600;
+font-style: normal;
+
+Minion 3 Bold
+
+font-family: minion-3, serif;
+font-weight: 700;
+font-style: normal;
+
+------------------------------
+
+# MINION 3 DISPLAY
+
+Minion 3 Display Medium
+
+font-family: minion-3-display, serif;
+font-weight: 500;
+font-style: normal;
+
+------------------------------
+
+SOLEIL
+
+Soleil Regular
+
+font-family: soleil, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+------------------------------
+
+JAF Bernina Sans
+font-family: jaf-bernina-sans, sans-serif;
+
+JAF Bernino Sans
+font-family: jaf-bernino-sans, sans-serif;
+*/
+
+/* Typography 
+   ----------------------------- */
+
+body {
+  font-family: minion-3, serif;
+  font-weight: 400;
+  color: #000;
 }
 
-.widget-content .wp-block-categories-list a {
+.site-title {
+  font-family: minion-3, serif;
+  font-weight: 400;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+/* Sidebar cat list 
+   ----------------------------- */
+
+.wp-block-categories-list {
+  margin-left: 0;
+  text-transform: lowercase;
+  font-variant-caps: small-caps;
+  font-feature-settings: "smcp";
+  font-variant-numeric: oldstyle-nums;
+  font-feature-settings: "onum";
+}
+
+.widget-content .wp-block-categories-list a,
+.widget-content .wp-block-categories-list a:visited {
   text-decoration: none;
+}
+
+.widget-content .wp-block-categories-list a:hover,
+.widget-content .wp-block-categories-list a:active,
+.widget-content .wp-block-categories-list a:focus {
+  text-decoration: underline;
+}
+
+.site-nav {
+  font-style: italic;
 }
 
 @media (min-width: 1000px) {
@@ -27,4 +127,128 @@
     padding-bottom: 4.5rem;
     border-bottom: 1px solid #ccc;
   }
+}
+
+.widget li {
+  margin-top: 0.7rem;
+}
+
+/* Preview cards   
+   ----------------------------- */
+
+.preview-wrapper {
+  background: #fff;
+  border-radius: 0;
+  box-shadow: 0 0.3rem 2.5rem 0 rgba(5, 10, 15, 0.05);
+}
+
+.preview-title {
+  color: #393834;
+  font-size: 1.9rem;
+  text-transform: lowercase;
+  font-variant-caps: small-caps;
+  font-variant-numeric: oldstyle-nums;
+  font-family: minion-3, serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Post page   
+   ----------------------------- */
+
+@media (min-width: 1000px) {
+  .single-container {
+    border-radius: 0;
+    box-shadow: 0 0.3rem 6rem rgba(5, 10, 15, 0.06);
+    overflow: hidden;
+  }
+}
+
+.post-title {
+  font-family: minion-3-display, serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.pagination-single .arrow {
+  background: #fff;
+}
+
+.pagination-single .arrow {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+@media (min-width: 600px) {
+  .pagination-single .next-post .arrow {
+    margin: 0;
+  }
+}
+
+.meta-content {
+  font-style: italic;
+}
+
+.related-posts-title {
+  color: #222;
+  font-size: 2.7rem;
+  margin-bottom: 2rem;
+  text-transform: none;
+  font-family: minion-3-display, serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.pagination-single a {
+  color: #222;
+  font-size: 1.8rem;
+  text-transform: lowercase;
+  font-variant-caps: small-caps;
+  font-variant-numeric: oldstyle-nums;
+  font-family: minion-3, serif;
+  font-weight: 400;
+}
+
+@media (min-width: 600px) {
+  .pagination-single .arrow img {
+    height: 1.3rem;
+    width: 1.3rem;
+  }
+}
+
+/* Footer   
+   ----------------------------- */
+
+#site-footer {
+  padding: 6rem 0 3rem 0;
+}
+
+.credits {
+  color: #64615a;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: right;
+  font-style: italic;
+  display: none;
+}
+
+/* Buttons   
+   ----------------------------- */
+
+button,
+.faux-button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  background: #33322f;
+  border-radius: 0;
+  color: #fff;
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  padding: 1.5rem 2.6rem 1.7rem;
+  text-transform: lowercase;
+  font-variant-caps: small-caps;
+  font-variant-numeric: oldstyle-nums;
+  font-family: minion-3, serif;
 }
