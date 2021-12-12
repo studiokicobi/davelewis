@@ -95,7 +95,7 @@ figcaption {
   font-style: italic;
 }
 
-/* Sidebar cat list 
+/* Sidebar
    ----------------------------- */
 
 .wp-block-categories-list {
@@ -125,7 +125,7 @@ figcaption {
 @media (min-width: 1000px) {
   .site-nav {
     padding-bottom: 4.5rem;
-    border-bottom: 3px double #ccc;
+    border-bottom: 1px double #ccc;
   }
 }
 
@@ -255,4 +255,16 @@ input[type="submit"] {
   font-variant-caps: small-caps;
   font-variant-numeric: oldstyle-nums;
   font-family: minion-3, serif;
+}
+
+/* Search   
+   ----------------------------- */
+
+.search-overlay {
+  background: #fffcf9;
+}
+
+.social-icons button {
+  background: #f0efec;
+  color: #5f6973;
 }
