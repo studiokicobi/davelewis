@@ -81,7 +81,7 @@ font-family: jaf-bernino-sans, sans-serif;
    ----------------------------- */
 
 body {
-  font-family: minion-3, serif;
+  font-family: minion-3, serif !important;
   font-weight: 400;
   color: #000;
 }
