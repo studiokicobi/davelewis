@@ -95,6 +95,19 @@ figcaption {
   font-style: italic;
 }
 
+.entry-content h2,
+.entry-content h2 strong {
+  font-family: minion-3-display, serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@media (min-width: 600px) {
+  .entry-content h2 {
+    font-size: 2.8rem;
+  }
+}
+
 .entry-content hr {
   border-block-color: #eee;
 }
