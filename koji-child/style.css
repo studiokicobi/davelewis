@@ -105,6 +105,7 @@ figcaption {
 @media (min-width: 600px) {
   .entry-content h2 {
     font-size: 2.8rem;
+    margin: 5rem 0 1rem;
   }
 }
 
@@ -308,5 +309,6 @@ figure.wp-block-table table tbody > tr:nth-child(even) {
 
 figure.wp-block-table table td {
   word-break: keep-all;
-  padding: 2.5% 5% 2.5% 0;
+  padding: 2.5% 1.5%;
+  min-width: 6rem;
 }
