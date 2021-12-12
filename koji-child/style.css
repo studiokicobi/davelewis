@@ -95,6 +95,10 @@ figcaption {
   font-style: italic;
 }
 
+.entry-content hr {
+  border-block-color: #eee;
+}
+
 /* Sidebar
    ----------------------------- */
 
