@@ -103,7 +103,7 @@ figcaption {
 }
 
 @media (min-width: 600px) {
-  .entry-content h2 {
+  #site-content .entry-content h2 {
     font-size: 2.8rem;
     margin: 5rem 0 1rem;
   }
