@@ -276,8 +276,16 @@ input[type="submit"] {
 /* Table   
    ----------------------------- */
 
+table {
+  font-size: 1em;
+}
+
 .wp-block-table.is-style-stripes tbody tr:nth-child(even),
 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody > tr:nth-child(even) {
   background-color: #fff;
 }
 
