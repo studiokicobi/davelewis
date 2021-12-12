@@ -280,3 +280,7 @@ input[type="submit"] {
 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
   background-color: #fff;
 }
+
+.wp-block-table.is-style-stripes {
+  border-bottom: 0px;
+}
